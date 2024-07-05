@@ -118,7 +118,7 @@ footer {
 }
 
 .about h1, .projects h1, .contact h1, .blog h1 {
-    color: #2c003e;
+    color: #1e1533;
 }
 
 .about ul, .about ul li, .projects ul, .projects ul li, .contact ul, .contact ul li, .blog ul, .blog ul li {
@@ -147,46 +147,7 @@ footer {
     border-radius: 5px;
 }
 
-.contact form button {
-    background-color: #ff69b4;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 .contact form button:hover {
-    background-color: #ff4081;
-}
-
-.project {
-    margin-bottom: 20px;
-}
-
-.project img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.project h2 {
-    margin: 10px 0;
-    color: #2c003e;
-}
-
-.project p {
-    color: #666;
-}
-
-.project .btn {
-    background-color: #ff69b4;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.project .btn:hover {
     background-color: #ff4081;
 }
 

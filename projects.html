@@ -4,6 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects - Sangwon Kim</title>
+    <style>
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .col {
+            flex: 1;
+            margin: 0 10px;
+            background-color: #2C2851;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .col img {
+            width: 100%;
+            height: 400px;
+        }
+        .project-info {
+            padding: 20px;
+            color: white;
+        }
+        .project-info h2 {
+            margin: 0 0 10px;
+        }
+        .project-info p {
+            margin: 0 0 20px;
+        }
+
+        .btn {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+        }
+        .btn:hover {
+    background-color: #ff4081;
+        }
+  
+    </style>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,23 +63,27 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="projects">
-            <h1>Projects</h1>
-            <div class="project">
-                <img src="images/project1.jpg" alt="Project 1">
-                <h2>Project Title 1</h2>
-                <p>Project description goes here. It should provide an overview of what the project is about, the technologies used, and the outcomes achieved.</p>
-                <a href="#" class="btn">View Project</a>
+    <div class="container">
+        <h1>Projects</h1>
+        <div class="row">
+            <div class="col">
+                <img src="images/puzzle.png" alt="Mobile App Development">
+                <div class="project-info">
+                    <h2>Mobile App Development</h2>
+                    <p>Project "Puzzle": The Next-Gen Dating App that leverages the Myers-Briggs Type Indicator for personalized match-making.</p>
+                    <a href="puzzle.html" class="btn">Read More</a>
+                </div>
             </div>
-            <div class="project">
-                <img src="images/project2.jpg" alt="Project 2">
-                <h2>Project Title 2</h2>
-                <p>Project description goes here. It should provide an overview of what the project is about, the technologies used, and the outcomes achieved.</p>
-                <a href="#" class="btn">View Project</a>
+            <div class="col">
+                <img src="images/fastfix.png" alt="The Fast-Fix Project">
+                <div class="project-info">
+                    <h2>The Fast-Fix Project</h2>
+                    <p>Your go-to solution for quick and efficient repairs, empowering consumers with the right to repair.</p>
+                    <a href="fastfix.html" class="btn">Read More</a>
+                </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </div>
     <footer>
         <p>&copy; 2024 Sangwon Kim. All rights reserved.</p>
     </footer>
