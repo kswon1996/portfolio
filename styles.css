@@ -10,6 +10,11 @@ header {
     padding: 40px 0;
 }
 
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 header nav ul {
     list-style-type: none;
     padding: 0;
