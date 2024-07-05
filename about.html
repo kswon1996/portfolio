@@ -4,6 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Sangwon Kim</title>
+    <style>
+        .about h2 {
+            color: #b8e006;
+        }
+        .about p {
+            line-height: 1.6;
+        }
+        .resume-section {
+            display: flex;
+            align-items: center;
+        }
+        .btn {
+            background-color: #dfd13c;
+            color: rgb(228, 119, 221);
+            padding: 3px 5px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-left: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .btn img {
+            margin-right: 10px;
+            width: 24px;
+            height: 24px;
+        }
+    </style>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -22,9 +49,12 @@
         <section class="about">
             <h1>About Me</h1>
             <p>My name is Sangwon Kim, and my lifelong ambition has always revolved around helping people. I have had the privilege of working in the fitness industry, where I had the opportunity to contribute to the well-being and transformation of individuals. Also, I proudly served my country as a police officer for two years, dedicating myself to ensuring the safety and security of my community. Now, as a highly dedicated Information Technology student, I bring my passion for technology.</p>
+            <h2>My Story</h2>
+            <p>Upon arriving in Canada, I initially aspired to pursue physiotherapy due to its esteemed cultural appreciation and advanced education, but a spinal cord injury left me partially paralyzed. Through unwavering determination and countless consultations with doctors, I learned I had a condition called OPLL. Despite the initial fear, I tirelessly sought ways to improve my condition for 2 years and, miraculously, regained full functionality in my body. It was during this time of recovery that I embarked on a new path as an Information Technology student at York University, fueled by my pride in this recovery journey. Here, I am exploring how to leverage my passion for helping others in the virtual realm of computers. Through various technology, including software development, assistive technology, telemedicine, and accessibility, I aim to make a positive impact on the lives of individuals facing problems. Join me as I navigate this exciting intersection of technology and compassion, working towards a more inclusive and accessible digital world.</p>
             <h2>Education</h2>
             <ul>
-                <li>Bachelor of Information Technology, York University</li>
+                <li>B.A., Hons. Information Technology, York University</li>
+                <li>College Diploma, Seneca College</li>
             </ul>
             <h2>Skills</h2>
             <ul>
@@ -32,13 +62,18 @@
                 <li>Frameworks: React, Angular</li>
                 <li>Tools: Git, GitHub, VS Code</li>
             </ul>
-            <h2>Resume</h2>
+            <div class="resume-section">
+                <h2>Resume</h2>
+                <a href="resume.pdf" download class="btn">
+                    <img src="images/pdf.png" alt="PDF Icon">Download PDF
+                </a>
+            </div>
             <iframe src="resume.pdf" width="100%" height="600px"></iframe>
-            <a href="resume.pdf" download class="btn">Download Resume</a>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Sangwon Kim. All rights reserved.</p>
-    </footer>
+        <p><a href="mailto:kswon1996@gmail.com">kswon1996@gmail.com</a></p>
+        <p>© 2024 Sangwon Kim. All rights reserved.</p>
+    </footer>    
 </body>
 </html>

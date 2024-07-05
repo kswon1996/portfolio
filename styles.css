@@ -73,9 +73,9 @@ header nav ul li a:hover {
 }
 
 .hero img {
-    border-radius: 15%;
-    width: 225px;
-    height: 280px;
+    border-radius: 5%;
+    width: 275px;
+    height: 350px;
     margin-top: 0px;
 }
 
@@ -109,16 +109,18 @@ footer {
     margin-right: 10px;
 }
 
-.about, .projects, .contact, .blog {
-    background-color: white;
+.about, .projects, .blog {
+    background-color: #1E1533;
+    color: white;
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
-.about h1, .projects h1, .contact h1, .blog h1 {
-    color: #1e1533;
+.about h1, .projects h1, .blog h1 {
+    color: #b8e006;
 }
 
 .about ul, .about ul li, .projects ul, .projects ul li, .contact ul, .contact ul li, .blog ul, .blog ul li {

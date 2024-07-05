@@ -6,6 +6,53 @@
     <title>Personal Portfolio - Sangwon Kim</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .explore-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #2C2851;
+            color: white;
+            padding: 40px;
+            margin: 40px 0;
+        }
+        .explore-text {
+            flex: 1;
+            margin-right: 20px;
+            text-align: center;
+        }
+        .explore-text h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .explore-text a {
+            color: #ff69b4;
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+        .explore-text a:hover {
+            color:#ff4081;
+        }
+        .explore-image {
+            flex: 1;
+        }
+        .explore-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 40px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -21,9 +68,9 @@
     </header>
     <section class="hero">
         <div class="hero-content">
-            <h1>Bonjour!</h1>
-            <h2>My name is Sangwon Kim</h2>
-            <p>This is to share my journey as a fourth-year student at York University, where I'm pursuing a degree in Information Technology. Here, you'll discover a collection of my academic projects and technological explorations that have shaped my passion for the ever-evolving world of IT.</p>
+            <h1 style="color:#2C2851">Bonjour!</h1>
+            <h2 style="color:#423a8b">My name is Sangwon Kim</h2>
+            <p style = "color:#ffffff">This is to share my journey as a fourth-year student at York University, where I'm pursuing a degree in Information Technology. Here, you'll discover a collection of my academic projects and technological explorations that have shaped my passion for the ever-evolving world of IT.</p>
             <a href="about.html" class="btn">About Me</a>
             <div class="social-icons">
                 <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
@@ -36,9 +83,19 @@
             <img src="images/sangwon-kim.png" alt="Sangwon Kim">
         </div>
     </section>
+    <section class="explore-section">
+        <div class="explore-image">
+            <img src="images/laptop.png" alt="Explore Projects">
+        </div>
+        <div class="explore-text">
+            <h2>Discover <br>a collection of <br>diverse projects</h2>
+            <a href="projects.html">Explore My Projects ></a>
+        </div>
+    </section>
     <footer>
+        <p><a href="mailto:kswon1996@gmail.com">kswon1996@gmail.com</a></p>
         <p>© 2024 Sangwon Kim. All rights reserved.</p>
     </footer>
+    
 </body>
 </html>
-
