@@ -32,7 +32,13 @@ header nav ul li a {
 header nav ul li a:hover {
     color: #e656b8;
 }
-
+.logo a {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    text-decoration: none;
+    color: white;
+}
 .hero {
     display: flex;
     align-items: center;
