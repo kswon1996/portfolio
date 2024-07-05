@@ -33,14 +33,27 @@ header nav ul li a:hover {
 }
 
 .hero {
-    text-align: center;
-    background-color: #a1e44d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 50px 20px;
+    background-color: #b8e006;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin-right: 50px;
 }
 
 .hero h1 {
-    font-size: 48px;
-    color: #2c003e;
+    font-size: 3em;
+    color: #ffffff;
+}
+
+.hero h2 {
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .hero p {
@@ -76,17 +89,13 @@ footer {
     padding: 10px 0;
 }
 
-footer .social-links {
-    margin-top: 10px;
+.social-icons {
+    margin-top: 20px;
 }
 
-footer .social-links a {
-    margin: 0 10px;
-}
-
-footer .social-links img {
-    width: 24px;
-    height: 24px;
+.social-icons a {
+    color: #ffffff;
+    margin-right: 10px;
 }
 
 .about, .projects, .contact, .blog {
@@ -168,4 +177,14 @@ footer .social-links img {
 
 .project .btn:hover {
     background-color: #ff4081;
+}
+
+footer {
+    background-color: #1f1f3b;
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
