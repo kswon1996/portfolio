@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio - Sangwon Kim</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="theme-switcher.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         .explore-section {
@@ -14,7 +15,6 @@
             background-color: #2C2851;
             color: white;
             padding: 40px;
-            margin: 40px 0;
         }
         .explore-text {
             flex: 1;
@@ -55,17 +55,26 @@
     </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="theme-toggle-container">
+        <input type="checkbox" id="theme-toggle" class="theme-toggle-input">
+        <label for="theme-toggle" class="theme-toggle-label">
+            <div class="sun-moon">
+                <span class="sun">☀️</span>
+                <span class="moon">🌙</span>
+            </div>
+        </label>
+    </div>
+</header>
     <section class="hero">
         <div class="hero-content">
             <h1 style="color:#2C2851">Bonjour!</h1>

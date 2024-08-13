@@ -5,6 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog - Sangwon Kim</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="theme-switcher.js" defer></script>
+    <script src="scripts.js" defer></script>
+    <style>
+        .blog {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .blog-post {
+            background-color: #b8e006; 
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        body.dark-mode .blog-post {
+            background-color: #222222; 
+            box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -17,17 +40,25 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-    </header>
+        <div class="theme-toggle-container">
+            <input type="checkbox" id="theme-toggle" class="theme-toggle-input">
+            <label for="theme-toggle" class="theme-toggle-label">
+                <div class="sun-moon">
+                    <span class="sun">☀️</span>
+                    <span class="moon">🌙</span>
+                </div>
+            </label>
+        </div>
+    </header>    
     <main>
         <section class="blog">
             <h1>Blog</h1>
-            <p>Will be completed in Assignment 2.</p>
+            <div id="blog-list"></div>
         </section>
     </main>
     <footer>
         <p><a href="mailto:kswon1996@gmail.com">kswon1996@gmail.com</a></p>
         <p>© 2024 Sangwon Kim. All rights reserved.</p>
     </footer>
-    
 </body>
 </html>

@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Implementing the Light/Dark Mode Switcher",
+        "date": "2024-08-12",
+        "content": "In this post, I'll discuss the process of adding a light/dark mode switcher to my portfolio website. The goal was to provide users with an option to switch between light and dark themes seamlessly. I began by creating a toggle switch in the HTML header using a checkbox input and a custom label for the switcher. The JavaScript code detects changes in the toggle state, applying either a 'dark-mode' or 'light-mode' class to the body element. CSS then handles the visual changes, ensuring that background colors, text colors, and other elements adapt to the selected theme. One challenge was ensuring the theme switch applied consistently across all pages. To address this, I saved the user's preference in local storage, allowing the site to remember the selected theme on page reloads or when navigating to different sections. This project was a great learning experience, reinforcing my understanding of JavaScript and CSS interactions."
+      },   
+      {
+        "title": "Creating a Dynamic Blog Section",
+        "date": "2024-08-12",
+        "content": "For Part 2, I focused on building a dynamic blog section that fetches and displays blog posts stored in a JSON file. I started by creating a 'blog.html' file with a basic structure, including a section to hold the blog posts. The next step involved writing JavaScript to load the posts dynamically. Using the fetch API, I retrieved the data from 'posts.json'. I then iterated over the array of posts, creating HTML elements for each post dynamically. The key was to ensure that the content—like titles, dates, and post bodies—was displayed correctly and in a visually appealing manner. I also implemented transitions and style adjustments to maintain a consistent look and feel between light and dark modes. While it was challenging to get everything to work smoothly, especially ensuring the styling adapted correctly to the theme, the final result was a dynamic, user-friendly blog section. This task enhanced my understanding of JavaScript's DOM manipulation and the importance of clean, responsive design."
+      }
+            
+  ]
+  
